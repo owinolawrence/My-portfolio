@@ -1,4 +1,51 @@
 body{
     background-color: white;
     }
-    
+ h1{
+        padding-top: 0%;
+        color:white;
+        font-display:bold;
+        font-family: sans-serif;
+        font-style: italic;
+     }
+     
+     .header{
+         background-image: url("https://steamuserimages-a.akamaihd.net/ugc/87098056449730955/59F44CADD087F4C675457D9AE18D90D66D1A08AB/");
+         background-repeat:no-repeat;
+         background-size: cover;
+     }
+ h1 ,hover{
+     color:greenyellow;
+     }
+     strong1{
+         color: bisque;
+     }
+  strong1:hover{
+         background-color: #555;
+         color:red;
+        }      
+img{
+         border-radius:50%;
+         width:220px;
+         height:220px;
+     
+     }
+     
+     .row{
+         width: 100%;
+         background-color:white;
+         margin-bottom:25px;
+         border:3px solid whitesmoke;
+     }
+     span{
+         float: center;
+         color: darkblue;
+         width: 7em;
+         font-size: 200%;
+         font-family:algerian couririer;
+         line-height: 50%;}
+         p {
+          font-family:Verdana, Geneva, Tahoma, sans-serif;
+          font-size:20px ;
+          font-weight:bold ;
+     }
