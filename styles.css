@@ -81,6 +81,72 @@ img{
      }
      footer{
 
-        background-color: #555;
+        background-color:white;
         height: line 0;
     }
+    .three{
+       color:white; 
+    }
+    .one{
+        box-sizing: border-box;
+      }
+    
+      
+      .heading {
+        font-size: 25px;
+    
+      }
+      
+      .fa {
+        font-size: 25px;
+      }
+      
+      .checked {
+        color: orange;
+      }
+      
+      /* Three column layout */
+      .side {
+        float: left;
+        width: 15%;
+        margin-top: 10px;
+      }
+      
+      .middle {
+        float: left;
+        width: 70%;
+        margin-top: 10px;
+      }
+      
+    
+    
+      
+      
+      /* Clear floats after the columns */
+      .row:after {
+        content: "";
+        display: table;
+        clear: both;
+      }
+      
+      /* The bar container */
+      .bar-container {
+        width: 100%;
+        background-color: #f1f1f1;
+        text-align: center;
+        color: white;
+      }
+      
+      /* Individual bars */
+      .bar-5 {width: 60%; height: 18px; background-color: #4CAF50;}
+      .bar-4 {width: 30%; height: 18px; background-color: #2196F3;}
+      .bar-3 {width: 10%; height: 18px; background-color: #00bcd4;}
+ #two{
+   background-color:black; 
+ }
+h5{
+    color:greenyellow;
+    text-transform:uppercase;
+    text-align: center;
+    font-size: 45px;
+}
