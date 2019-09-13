@@ -79,3 +79,8 @@ img{
           font-size:20px ;
           font-weight:bold ;
      }
+     footer{
+
+        background-color: #555;
+        height: line 0;
+    }
