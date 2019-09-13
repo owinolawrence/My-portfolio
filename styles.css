@@ -30,7 +30,37 @@ img{
          height:220px;
      
      }
-     
+     nav{
+        background-color: #555;
+    
+    } 
+    
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;display: inline-block;
+    }
+    li{
+        display: inline;
+        float: right;
+        
+    }
+    li a {
+            
+            width: 100px;
+            color:white;
+            padding: 8px 16px;
+            text-decoration: none;
+            text-transform:uppercase;
+          }
+          
+     li a:hover {
+            background-color: #555;
+            color:blue;
+            margin-left:2px;
+            border:3px solid whitesmoke;
+    }
+          
      .row{
          width: 100%;
          background-color:white;
