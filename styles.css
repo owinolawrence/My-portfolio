@@ -87,9 +87,6 @@ img{
     .three{
        color:white; 
     }
-    .one{
-        box-sizing: border-box;
-      }
     
       
       .heading {
@@ -119,9 +116,7 @@ img{
       }
       
     
-    
-      
-      
+             
       /* Clear floats after the columns */
       .row:after {
         content: "";
@@ -149,4 +144,10 @@ h5{
     text-transform:uppercase;
     text-align: center;
     font-size: 45px;
+}
+.text-box{
+  border-bottom: 2px solid black;
+  border-left: 2px solid black;
+  border-right: 2px solid black;
+  border-top: 2px solid black;
 }
