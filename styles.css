@@ -42,7 +42,7 @@ img{
     }
     li{
         display: inline;
-        float: right;
+        
         
     }
     li a {
@@ -64,7 +64,7 @@ img{
      .row{
          width: 100%;
          background-color:white;
-         margin-bottom:25px;
+         margin-bottom:50px;
          border:3px solid whitesmoke;
      }
      span{
@@ -79,6 +79,7 @@ img{
           font-size:20px ;
           font-weight:bold ;
      }
+     
      footer{
 
         background-color:white;
@@ -137,9 +138,9 @@ img{
       .bar-4 {width: 30%; height: 18px; background-color: #2196F3;}
       .bar-3 {width: 10%; height: 18px; background-color: #00bcd4;}
  #two{
-   background-color:black; 
+   background-color:white; 
  }
-h5{
+h6{
     color:greenyellow;
     text-transform:uppercase;
     text-align: center;
@@ -150,4 +151,33 @@ h5{
   border-left: 2px solid black;
   border-right: 2px solid black;
   border-top: 2px solid black;
+}
+#text-box{
+  border-bottom: 2px solid red;
+    border-left: 2px solid red;
+  border-right: 2px solid red;
+  border-top: 2px solid red;
+}
+a:link {
+  color: green; 
+  background-color: transparent; 
+  text-decoration: none;
+}
+
+
+a:hover {
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
+}
+th{
+  color:red;
+  font-size: 20px;
+padding: 20px; 
 }
