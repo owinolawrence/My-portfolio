@@ -1,33 +1,33 @@
 body{
     background-color: white;
     }
- h1{
-        padding-top: 0%;
-        color:white;
-        font-display:bold;
-        font-family: sans-serif;
-        font-style: italic;
+h1{
+    padding-top: 0%;
+    color:white;
+    font-display:bold;
+    font-family: sans-serif;
+    font-style: italic;
      }
      
-     .header{
-         background-image: url("https://steamuserimages-a.akamaihd.net/ugc/87098056449730955/59F44CADD087F4C675457D9AE18D90D66D1A08AB/");
-         background-repeat:no-repeat;
-         background-size: cover;
+.header{
+     background-image: url("https://steamuserimages-a.akamaihd.net/ugc/87098056449730955/59F44CADD087F4C675457D9AE18D90D66D1A08AB/");
+     background-repeat:no-repeat;
+     background-size: cover;
      }
  h1 ,hover{
      color:greenyellow;
      }
-     strong1{
-         color: bisque;
+ strong1{
+    color: bisque;
      }
-  strong1:hover{
-         background-color: #555;
-         color:red;
+strong1:hover{
+    background-color: #555;
+    color:red;
         }      
 img{
-         border-radius:50%;
-         width:220px;
-         height:220px;
+    border-radius:50%;
+    width:220px;
+    height:220px;
      
      }
      nav{
@@ -47,12 +47,12 @@ img{
     }
     li a {
             
-            width: 100px;
-            color:white;
-            padding: 8px 16px;
-            text-decoration: none;
-            text-transform:uppercase;
-          }
+              width: 100px;
+              color:white;
+              padding: 8px 16px;
+              text-decoration: none;
+              text-transform:uppercase;
+            }
           
      li a:hover {
             background-color: #555;
@@ -180,4 +180,9 @@ th{
   color:red;
   font-size: 20px;
 padding: 20px; 
+}
+@media only screen and (max-width: 800px) {
+  body {
+    background-color: burlywood;
+  }
 }
